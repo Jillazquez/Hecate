@@ -1,0 +1,62 @@
+/* Estilo para el botón de toggle */
+.btnd {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+  }
+  
+  /* Estilos para el contenedor del menú */
+  .menu-container {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: left 0.3s ease;
+    z-index: 1001;
+  }
+  
+  .menu-container.visible {
+    left: 0;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #555;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    background-color: #777;
+  }
+  
+  #closeMenu {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #closeMenu:hover {
+    background-color: #777;
+  }
+
+  .btn{
+    display: f;
+  }
